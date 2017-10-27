@@ -6,3 +6,7 @@ function MainController($scope) {
 
   $scope.year = '2016';
 }
+
+angular
+	.module('app')
+	.controller('MainController', MainController);
