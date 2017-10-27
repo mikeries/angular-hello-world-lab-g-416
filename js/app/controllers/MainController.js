@@ -1,10 +1,6 @@
 function MainController($scope) {
-  $scope.contact = {
-    name: 'Bill Gates',
-    phone: '01234567890'
-  };
-
-  $scope.year = '2016';
+  $scope.name = 'Bill Gates';
+  $scope.phone = '01234567890'
 }
 
 angular
